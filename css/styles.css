@@ -57,6 +57,22 @@ body {
 	font-weight: 400;
 	text-align: center;
 	transition: 0.1s;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 20px;"><text y="15">¶</text></svg>'), auto;
+}
+
+.e-letter{
+	color: white;
+	/* background-image: url("../img/cursor.png"); */
+	width: 100px;
+	height: 100px;
+}
+
+.e-letter img{
+
+}
+
+#s-letter:hover .e-letter{
+	color: black;
 }
 
 .social{
@@ -694,9 +710,15 @@ nav ul li a:hover {
 	font-size: 70px;
 }
 
+.page-logo{
+	margin-top: 5%;
+}
+
 #artists-header{
 	margin-bottom: 30%; 
-	margin-top: 10%;
+	margin-top: 5%;
+	font-size: 40px;
+	font-family: 'Octarine Bold';
 }
 
 #artists-sub{
@@ -785,7 +807,8 @@ nav ul li a:hover {
 
 @media screen and (max-width:1189px){
 	#artists-header{
-		font-size: 90px;
+		margin-top: 15%;
+		font-size: 70px;
 	}
 }
 
