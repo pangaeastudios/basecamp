@@ -57,7 +57,7 @@ body {
 	font-weight: 400;
 	text-align: center;
 	transition: 0.1s;
-	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 20px;"><text y="15">¶</text></svg>'), auto;
+	/* cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 20px;"><text y="15">¶</text></svg>'), auto; */
 }
 
 .e-letter{

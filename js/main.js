@@ -7,12 +7,12 @@ $(document).ready(function(){
   });
 });
 
-var disableE = false;
+var disableE = true;
 
 $("#s-letter").on("mouseover", 
 function(){
   console.log('e');
-  disableE = true;
+  disableE = false;
 });
 
 $(function() {
