@@ -433,6 +433,25 @@ nav {
 	letter-spacing: 7px;
 }
 
+.basecamp-main a {
+	color: white;
+}
+
+.basecamp-main a:link {
+	text-decoration-color: white;
+	text-decoration: none;
+}
+
+.basecamp-main a:visited {
+	text-decoration-color: white;
+	text-decoration: none;
+}
+
+.basecamp-main a:hover {
+	color: rgb(31, 13, 199);
+	text-decoration: none;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
