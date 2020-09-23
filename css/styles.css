@@ -438,12 +438,14 @@ nav {
 }
 
 .basecamp-main a:link {
-	text-decoration-color: white;
 	text-decoration: none;
 }
 
 .basecamp-main a:visited {
-	text-decoration-color: white;
+	text-decoration: none;
+}
+
+.basecamp-main a:active{
 	text-decoration: none;
 }
 
